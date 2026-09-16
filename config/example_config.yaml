@@ -1,0 +1,15 @@
+size: 8
+initial: [0, 0, 0, 0, 0, 0, 0, 0]
+operations:
+  - type: update
+    index: 3
+    delta: 5
+  - type: update
+    index: 5
+    delta: 2
+  - type: query
+    left: 0
+    right: 7
+  - type: query
+    left: 3
+    right: 5
